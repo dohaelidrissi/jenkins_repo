@@ -1,0 +1,9 @@
+[server]
+client ansible_host= 192.168.4.17
+
+[all :vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_become= yes
+ansible_become_method=sudo
+ansible_sudo_pass =ubuntu
+
